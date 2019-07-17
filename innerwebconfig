@@ -1,0 +1,9 @@
+spring.application.name=innerweb
+server.port=9005
+#eureka.client.service-url.defaultZone=http://localhost:8500/eureka/
+
+spring.cloud.consul.discovery.healthCheckUrl=http://localhost:9005/health
+spring.cloud.consul.enabled=true
+spring.cloud.consul.host=localhost
+spring.cloud.consul.port=8500
+spring.cloud.consul.discovery.health-check-interval=10s
